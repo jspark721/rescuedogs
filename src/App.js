@@ -1,13 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-
-const Dog = ({ name, breed, gender }) => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, name),
-    React.createElement("h2", {}, breed),
-    React.createElement("h2", {}, gender),
-  ]);
-};
+import Dog from "./Dog";
 
 const App = () => {
   return React.createElement(
