@@ -1,0 +1,26 @@
+{
+  "name": "rescuedogs",
+  "version": "1.0.0",
+  "description": "Dog Adoption Site",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jspark721/rescuedogs.git"
+  },
+  "keywords": [],
+  "author": "Julie Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jspark721/rescuedogs/issues"
+  },
+  "homepage": "https://github.com/jspark721/rescuedogs#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "prettier": "^2.0.4"
+  }
+}
