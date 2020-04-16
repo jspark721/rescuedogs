@@ -1,3 +1,4 @@
 {
     "allowAllPropertiesOnSameLine": true,
+    "jsxBracketSameLine": true
 }
