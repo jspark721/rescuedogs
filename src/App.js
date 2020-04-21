@@ -1,7 +1,7 @@
 import React from "react";
-import 'babel-polyfill';
+import "babel-polyfill";
 import { render } from "react-dom";
-import { Router } from "@reach/router";
+import { Router, Link } from "@reach/router";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 
@@ -9,10 +9,12 @@ const App = () => {
   return (
     <React.StrictMode>
       <div>
-        <h1 id="logo">Rescue Dogs</h1>
+        <header>
+          <Link to="/">Rescue Dogs</Link>
+        </header>
         <Router>
           <SearchParams path="/" />
-          <Details path="/details/:id"/>
+          <Details path="/details/:id" />
         </Router>
       </div>
     </React.StrictMode>
